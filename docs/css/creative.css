@@ -27,7 +27,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #909BA5;
 }
 h1,
 h2,
@@ -46,7 +46,7 @@ p {
   background-color: #DAB6B6;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #343F3F;
   color: white;
 }
 .text-faded {
@@ -77,12 +77,12 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #909BA5;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: #222222;
+  color: #343F3F;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -90,7 +90,7 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: #343F3F;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -135,11 +135,11 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #909BA5;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #343F3F;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/loomak_jumbo.jpg');
   text-align: center;
   color: white;
 }
@@ -236,7 +236,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(144, 155, 165, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -291,7 +291,7 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
+  color: #343F3F;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -304,7 +304,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
+  color: #343F3F;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -336,7 +336,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: white;
-  background-color: #222222;
+  background-color: #343F3F;
 }
 .btn-primary {
   color: white;
@@ -353,8 +353,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #909BA5;
+  border-color: #9BA51f;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -399,12 +399,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #343F3F;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #343F3F;
 }
 img::selection {
   color: white;
@@ -415,5 +415,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #343F3F;
 }
